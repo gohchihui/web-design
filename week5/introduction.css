@@ -1,10 +1,20 @@
 body{
-    text-align: center;
-    background-color: aqua;
+    text-align: left;
+    background-image: url(img/blur.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 h1{
 color: blue;
 }
 p{
     font-size: 20px;
+}
+div{
+    text-align: center;
+    background-image: url("img/green.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
