@@ -1,0 +1,14 @@
+body{
+    padding: 30px;
+    border: 2px solid gray;
+    margin:30px;
+}
+div#name{
+    background-image:url(img/redpinl.jfif) ;
+    background-size: 100%;
+}
+div#description{
+    background-image:url(img/green.jpg) ;
+    background-size: 10%;
+    background-repeat: repeat;
+}
