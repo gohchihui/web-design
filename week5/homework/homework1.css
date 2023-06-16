@@ -1,0 +1,39 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Lato';
+    font-size: 3vw;
+    
+}
+
+div#container{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    word-spacing: normal;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    min-height: auto;
+}
+
+div#title{
+    border-bottom: 8px solid black;
+    border-top: 8px solid black;
+    border-right: 8px solid black;
+    padding: 70px;
+    margin-right: 30px;
+    width: 50%;
+    height: 50%;
+    margin-left: 0px;
+}
+div#images{
+    margin: 60px;
+}
+
+h1 {
+    font-size: 100px;
+    margin-bottom: -2px;
+}
+p{
+    font-size: 20px;
+}
