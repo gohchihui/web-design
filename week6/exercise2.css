@@ -71,5 +71,6 @@ body{
     .box2 {
         flex-wrap: wrap;
         width: 33.33%;
+        display: flex; 
  }
 }
