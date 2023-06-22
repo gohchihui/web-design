@@ -61,3 +61,15 @@ body{
     padding: 100px;
     color: #f2f2f2;
 }
+@media screen and (max-width: 480px){
+    .box1{
+        flex-direction: column;
+    }
+    .big {
+        width: 100%;
+    }
+    .box2 {
+        flex-wrap: wrap;
+        width: 33.33%;
+ }
+}
