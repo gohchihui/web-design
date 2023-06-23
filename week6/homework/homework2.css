@@ -1,0 +1,76 @@
+#container{
+    background-color: white;
+    max-width: 1024px;
+    margin: auto;
+}
+.header{
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
+#logo{
+    justify-content: flex-start;
+}
+#phone{
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-left: 600px;
+}
+.menu{
+    text-align: center;
+    background-color: lightgray;
+    display: flex;
+    padding: 14px 16px;
+    justify-content: space-between;
+    margin: 5px;
+}
+.menu div a{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: flex-start;
+}
+.menu a:hover{
+    background-color: aliceblue;
+    color: #333;
+}
+#slidebar{
+    text-align: center;
+    background-color: lightgray;
+}
+.row{
+    display: flex;
+}
+.column{
+    width: 33.33%;
+    margin: 5px;
+    background-color: lightgray;
+    text-align: center;
+}
+.box2{
+    display: flex;
+    background-color: lightgray;
+    
+}
+#big{
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    width: 60%;
+}
+#small{
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    width: 40%;
+}
+.footer{
+    background-color: #333;
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    color: #f2f2f2;
+}
