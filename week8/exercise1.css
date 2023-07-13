@@ -43,7 +43,9 @@ body{
     width: 100%;
     text-align: center;
     color: black;
+    
 }
+
 .bottomleft{
     position: absolute;
     bottom: 8px;
