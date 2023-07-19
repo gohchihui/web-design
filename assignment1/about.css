@@ -37,10 +37,12 @@ body{
 }
 .small{
     display: flex;
+    align-items: center;
 }
 .photo{
     margin-top: 200px;
-    margin-left: 100px;
+    margin-left: 140px;
+    padding-left: 150px;
     width: 50%;
     text-align: center;
 }
@@ -49,7 +51,8 @@ body{
 }
 .text{
     margin-top: 150px;
-    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 50px;
     width: 50%;
     align-items: center;
 }
