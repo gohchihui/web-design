@@ -69,3 +69,68 @@ body{
 .position{
     font-weight: 700;
 }
+.small{
+    max-width: 50%;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+.Bbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.progress{
+    background: #e6e6e6;
+    position: relative;
+}
+.bar1{
+    height:24px;
+    width:90%;
+    background: #1f1be7;
+}
+.bar1 span{
+    position: absolute;
+    top:-38px;
+    right: 0;
+    font-weight: 700;
+    color: #000;
+}
+.bar2{
+    height:24px;
+    width:80%;
+    background: #1f1be7;
+}
+.bar2 span{
+    position: absolute;
+    top:-38px;
+    right: 0;
+    font-weight: 700;
+    color: #000;
+}
+.bar3{
+    height:24px;
+    width:70%;
+    background: #1f1be7;
+}
+.bar3 span{
+    position: absolute;
+    top:-38px;
+    right: 0;
+    font-weight: 700;
+    color: #000;
+}
+.bar4{
+    height: 24px;
+    width: 60%;
+    background: #1f1be7;
+}
+.bar4 span{
+    position: absolute;
+    top: -38px;
+    right: 0;
+    font-weight: 700;
+    color: #000;
+}

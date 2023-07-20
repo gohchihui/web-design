@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background-color: #FFFFFF;
+    font-family: 'Lato';
+    font-size: 14px;
+}
+#big{
+    background-color: #FFFFFF;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    background-color: #b0a4a480;
+    padding: 14px 16px;
+    justify-content: space-between;
+    position: fixed;
+    width: 98%;
+}
+.nav div a{
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: flex-start;
+}
+.nav a:hover{
+    background-color: wheat;
+    color: #000;
+}
+.small{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+.box1{
+    background: #b0a4a473;
+    margin: 10px;
+}
+.box1 img{
+    margin-top: 10px;
+}
+.box2{
+    background: #b0a4a473;
+    margin: 10px;
+}
+.box2 img{
+    margin: 5px;
+}
+.sbox{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.heading{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    font-weight: 400;
+    margin: 10px;
+}
+.box12{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.b1{
+    text-align: center;
+}
+.b2{
+    text-align: center;
+}
+.b3{
+    text-align: center;
+    margin-top: 5px;
+}
