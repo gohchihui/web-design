@@ -50,11 +50,17 @@ body{
 }
 .box1{
     padding: 50px;
-    position: sticky;
+    position: relative;
+    width: 50%;
+}
+.snav{
+    position: fixed;
+    padding-top: 50px;
 }
 .heading{
     color: #1f1be7;
     font-size: 20px;
+    padding-top: 20px;
 }
 .text{
     color: #1f1be7;
