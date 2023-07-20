@@ -27,48 +27,62 @@ body{
     background-color: wheat;
     color: #000;
 }
-.container{
-    position: absolute;
-    top: 10%;
-    width: 100%;
-    text-align: center;
-    font-size: 40px;
-    color: black;
-}
+
 .small{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .photo{
-    margin-top: 200px;
-    margin-left: 140px;
-    padding-left: 150px;
-    width: 50%;
-    text-align: center;
+    text-align: right;
+    padding-top: 10px;
 }
-.photo img{
-    border-radius: 346px;
+
+.box{
+    display: flex;
+    width: 100%;
 }
-.text{
-    margin-top: 150px;
-    margin-right: 200px;
-    padding-right: 50px;
-    width: 50%;
-    align-items: center;
-}
-p{
+h1{
     font-family: 'Lato';
-    font-size: 20px;
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.write{
+    font-family: 'Lato';
+    font-size: 24px;
+    padding-left: 30px;
+}
+.ans{
+    font-family: 'Lato';
+    font-size: 24px;
+    color: #B0A4A4;
+    padding-left: 20px;
+}
+.write p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.ans p{
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .one{
     font-family: 'Lato';
     font-size: 20px;
     color: #1F1BE7;
+    padding-left: 30px;
+    margin-top: 30px;
 }
 .two{
     font-family: 'Lato';
     font-size: 20px;
     color: black;
+    margin-top: 30px;
+}
+.sbox{
+    display: flex;
 }
 .next{
     font-family: 'Lato';
@@ -76,7 +90,29 @@ p{
     font-weight: 700;
     color: black;
 }
-.icon img{
-    margin-left: 200px;
-    margin-top: 100px;
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+@media screen and (max-width:480px) {
+    .text{
+        flex-wrap: wrap;
+    }
+    .icon{
+        flex-wrap: wrap;
+    }
+
+    .small{
+        flex-direction: column;
+    }
+    .write{
+        font-size: 15px;
+    }
+    .ans{
+        font-size: 15px;
+    }
+    
 }

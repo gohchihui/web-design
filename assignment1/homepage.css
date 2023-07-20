@@ -42,4 +42,13 @@ p{
 .one{
     color: #1F1BE7;
     font-size: 40px;
+
+}
+
+@media screen and(max-width:480px) {
+
+    .others{
+        flex-flow: column wrap;
+
+    }
 }
