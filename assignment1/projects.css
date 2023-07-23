@@ -54,7 +54,8 @@ body{
 .b1{
     background: #b0a4a480;
     width: 33.33%;
-    margin: 20px 50px 20px 50px;
+    margin: 20px 10px 20px 10px;
+    justify-content: center;
 }
 p{
     color: #1f1be7;
@@ -70,5 +71,8 @@ h5{
 @media screen and (max-width:480px) {
     .box{
         flex-wrap: wrap;
+    }
+    .small img{
+        width: 300px;
     }
 }
