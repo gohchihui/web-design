@@ -15,11 +15,14 @@ body{
     background-color: #b0a4a480;
     padding: 14px 16px;
     justify-content: space-between;
+    position: fixed;
+    width: 98%;
+    flex-wrap: wrap;
 }
 .nav div a{
     color: #333;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px;
     text-decoration: none;
     justify-content: flex-start;
 }
@@ -36,6 +39,7 @@ body{
 .photo{
     text-align: right;
     padding-top: 10px;
+    margin-top: 50px;
 }
 
 .box{
@@ -96,17 +100,28 @@ h1{
     align-items: center;
     padding-top: 50px;
 }
+.icon2{
+    padding: 10px;
+}
 
 @media screen and (max-width:480px) {
     .text{
         flex-wrap: wrap;
     }
+    h1{
+        margin-top: 100px;
+    }
     .icon{
         flex-wrap: wrap;
     }
-
+    .nav{
+        flex-wrap: wrap;
+    }
     .small{
         flex-direction: column;
+    }
+    .photo{
+        display: none;
     }
     .write{
         font-size: 15px;

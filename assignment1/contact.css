@@ -17,11 +17,12 @@ body{
     justify-content: space-between;
     position: fixed;
     width: 98%;
+    flex-wrap: wrap;
 }
 .nav div a{
     color: #333;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px;
     text-decoration: none;
     justify-content: flex-start;
 }
@@ -100,6 +101,15 @@ button{
 @media screen and (max-width:480px) {
     .small{
         flex-wrap: wrap;
+    }
+    .nav{
+        width: auto;
+    }
+    .photo{
+        height: 300px;
+    }
+    .text{
+        margin-top: 100px;
     }
     .box{
         flex-wrap: wrap;
