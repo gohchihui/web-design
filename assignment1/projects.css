@@ -34,8 +34,35 @@ body{
     justify-content: center;
     display: flex;
     text-align: center;
-    width: 100%;
+    position: relative;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .small:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 .heading{
     padding-top: 50px;
     padding-bottom: 10px;
@@ -47,6 +74,7 @@ body{
 .box{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .sbox{
@@ -74,6 +102,7 @@ h5{
     .box{
         flex-wrap: wrap;
     }
+
     .small img{
         width: 300px;
     }
