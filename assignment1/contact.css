@@ -110,11 +110,12 @@ button{
     .nav{
         width: auto;
     }
-    .photo{
+    .photo img{
         height: 300px;
     }
     .text{
-        margin-top: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     .box{
         flex-wrap: wrap;
@@ -126,11 +127,7 @@ button{
         font-size: 13px;
     }
     .footer{
-        width: 100%;
         padding-left: 15px;
-        padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
     }
     .row{
         display: flex;
