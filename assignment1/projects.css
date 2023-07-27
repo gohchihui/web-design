@@ -18,6 +18,7 @@ body{
     position: fixed;
     width: 98%;
     flex-wrap: wrap;
+    z-index: 100;
 }
 .nav div a{
     color: #333;
@@ -101,5 +102,8 @@ h5{
 @media screen and (max-width:480px) {
     .small img{
         width: 300px;
+    }
+    .nav{
+        z-index: 100;
     }
 }
