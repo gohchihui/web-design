@@ -8,23 +8,14 @@
     border-radius: 0;
     padding: 0.7em;
   }
-  #history{
-    background-image:url(img/palacehalf.jpeg) no-repeat center center fixed;
-    display:table;
-    height:100%;
-    width: 100%;
-    background-size:cover;
+  #intro{
+    background-image: url(../img/palacehalf.jpeg);
+    height: 75vh;
   }
-  .text{
-    display:table-cell;
-    text-align:center;
-    vertical-align:middle;
-    }
-    .text h1{
-    font-size:500%;
-    font-weight:700;
-    }
-
+  #second{
+    background-image: url(../img/palace.jpg);
+    height: 75vh;
+  }
   @media only screen and (min-width: 992px) {
     .dropdown:hover .dropdown-menu {
       display: flex;
