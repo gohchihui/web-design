@@ -35,12 +35,22 @@
 }
 .tbl2{
   background-color: #ffd90022;
+  height: 230px;
 }
 .tbl3{
   background-color: #a324247c;
 }
 .tbl4{
   background-color: #a3242429;
+  height: 230px;
+}
+.height{
+  background-color: #ffd90022;
+  height: auto;
+}
+.height2{
+  background-color: #a3242429;
+  height: auto;
 }
 @media only screen and (max-width: 768px) {
   #table{
@@ -53,6 +63,9 @@
     flex-direction: column;
   }
   #text1{
+    font-size: 20px;
+  }
+  #text2{
     font-size: 20px;
   }
 }
