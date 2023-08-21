@@ -9,7 +9,7 @@
     padding: 0.7em;
   }
   #intro{
-    background-image: url(../img/palace\ 2.png);
+    background: url(../img/palace\ 2.png) no-repeat center;
     height: 100vh;
     background-size: cover;
   }
@@ -25,6 +25,32 @@
     background: url(../img/b2.jpg) no-repeat center;
     height: 60vh;
     background-size: cover;
+}
+#tbl1{
+  background-color: #B29E36;
+}
+.tbl2{
+  background-color: #ffd90022;
+}
+.tbl3{
+  background-color: #a324247c;
+}
+.tbl4{
+  background-color: #a3242429;
+}
+@media only screen and (max-width: 768px) {
+  #table{
+    flex-direction: column;
+  }
+  .table2{
+    flex-direction: column;
+  }
+  .describe{
+    padding-right: 100px;
+  }
+  #text1{
+    font-size: 25px;
+  }
 }
   @media only screen and (min-width: 992px) {
     .dropdown:hover .dropdown-menu {
