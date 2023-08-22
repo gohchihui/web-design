@@ -1,0 +1,155 @@
+.navbar-dark .navbar-nav a.nav-link {
+    color: #ffffff;
+    font-size: 1.1em;
+}
+
+.dropdown-menu {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border: none;
+    border-radius: 0;
+    padding: 0.7em;
+}
+
+@media only screen and (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+        display: flex;
+    }
+
+    .dropdown-menu.show {
+        display: flex;
+    }
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-menu li .dropdown-item {
+    color: gray;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    text-align: center;
+}
+
+.dropdown-menu li .dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown-menu li:first-child a {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.dropdown-menu li:first-child a:hover {
+    background-color: #f1f1f1;
+}
+
+
+.c1 {
+    font-family: 'Noto Sans SC', sans-serif;
+    line-height: 2;
+}
+
+.img {
+    position: relative;
+}
+
+.word {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 50%;
+}
+
+.word2 {
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    color: white;
+}
+
+
+.r {
+    display: flex;
+    align-items: center;
+    background-color: #798777;
+}
+
+.r2 {
+    display: flex;
+    align-items: center;
+    background-color: #BDD2B6;
+}
+
+
+.col1 {
+    background-color: #BDD2B6;
+}
+
+.col2 {
+    background-color: #798777;
+}
+
+.col3 {
+    background-color: #798777;
+    color: white;
+}
+
+.col4 {
+    background-color: #BDD2B6;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .dropdown-menu.show {
+        flex-wrap: wrap;
+        max-height: 350px;
+        overflow-y: scroll;
+    }
+
+    .word {
+        top: 0px;
+        right: 2%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1140px) {
+    .dropdown:hover .dropdown-menu {
+        width: 40vw;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .word {
+        position: unset;
+        width: 100%;
+    }
+
+    .word2 {
+        position: unset;
+        color: black;
+    }
+
+    .r {
+        flex-direction: column;
+    }
+
+    .r2 {
+        flex-direction: column-reverse;
+    }
+
+    .col3 {
+        background-color: #BDD2B6;
+        color: black;
+    }
+
+    .col4 {
+        background-color: #798777;
+        color: white;
+    }
+
+}
