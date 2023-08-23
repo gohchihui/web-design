@@ -21,19 +21,13 @@
     font-size: 20px;
     font-weight: bold;
   }
-  #third{
-    background: url(../img/back1.jpg) no-repeat center;
-    height: 60vh;
-    background-size: cover;
+  .word {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 50%;
   }
-.describe{
-    padding-right: 300px;
-}
-#four{
-    background: url(../img/b2.jpg) no-repeat center;
-    height: 60vh;
-    background-size: cover;
-}
+
 #tbl1{
   background-color: #B29E36;
 }
@@ -56,6 +50,14 @@
   background-color: #a3242429;
   height: auto;
 }
+@media only screen and (max-width: 480px) {
+  .text2{
+    font-weight: bold;
+    font-size: 10px;
+    padding: 15px;
+    padding-top: 0;
+  }
+}
 @media only screen and (max-width: 768px) {
   #table{
     flex-direction: column;
@@ -63,12 +65,7 @@
   .table2{
     flex-direction: column;
   }
-  .describe{
-    padding-right: 100px;
-  }
-  #text1{
-    font-size: 25px;
-  }
+
 }
   @media only screen and (min-width: 992px) {
     .dropdown:hover .dropdown-menu {
@@ -106,6 +103,10 @@
       max-height: 350px;
       overflow-y: scroll;
     }
+    .word {
+      position: unset;
+      width: 100%;
+  }
   }
   @media only screen and (min-width: 992px) and (max-width: 1140px) {
     .dropdown:hover .dropdown-menu {
