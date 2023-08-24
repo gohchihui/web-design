@@ -10,6 +10,58 @@
     padding: 0.7em;
 }
 
+.next img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img {
+    position: relative;
+}
+
+.word {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 50%;
+}
+
+.word1 {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 50%;
+}
+
+@media only screen and (min-width: 992px) {
+    .next img {
+        width: 1300px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    #table {
+        flex-direction: column;
+    }
+
+    .describe {
+        padding-right: 100px;
+    }
+
+    .table2 {
+        flex-direction: column;
+    }
+
+    #text1 {
+        font-size: 20px;
+    }
+
+    #text2 {
+        font-size: 20px;
+    }
+}
+
 @media only screen and (min-width: 992px) {
     .dropdown:hover .dropdown-menu {
         display: flex;
@@ -47,44 +99,6 @@
     background-color: #f1f1f1;
 }
 
-.c1 {
-    font-family: 'Noto Sans SC', sans-serif;
-    line-height: 2;
-}
-
-.r1 {
-    background-color: #798777;
-    align-items: center;
-    display: flex;
-}
-
-.r2 {
-    background-color: #BDD2B6;
-    align-items: center;
-    display: flex;
-}
-
-.img {
-    position: relative;
-}
-
-
-.word {
-    position: absolute;
-    top: 3%;
-    width: 100%;
-}
-
-
-.r {
-    display: flex;
-    background-color: #BDD2B6;
-    align-items: center;
-    margin: 20px;
-}
-
-
-
 @media only screen and (max-width: 992px) {
     .dropdown-menu.show {
         flex-wrap: wrap;
@@ -92,19 +106,14 @@
         overflow-y: scroll;
     }
 
-
-
-    .r2 {
-        flex-direction: column-reverse;
-    }
-
     .word {
         position: unset;
+        width: 100%;
     }
 
-    .r {
-        flex-direction: column-reverse;
-        margin: 0px;
+    .word1 {
+        position: unset;
+        width: 100%;
     }
 }
 
@@ -115,14 +124,31 @@
     }
 }
 
-@media only screen and (max-width: 680px) {
-    .r1 {
-        flex-direction: column;
-    }
+.row {
+    align-items: center;
+}
+
+.column h3 {
+    font-weight: bold;
+}
+
+.row1 {
+    background-color: #F4E0B9;
+
+}
+
+.row2 {
+    background-color: #FFF4D2;
 }
 
 .footer {
     text-align: left;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.10);
+}
+
+@media only screen and (max-width: 992px) {
+    .row2 {
+        flex-direction: column-reverse;
+    }
 }
