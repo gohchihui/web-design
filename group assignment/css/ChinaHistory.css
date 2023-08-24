@@ -122,3 +122,8 @@
       flex-wrap: wrap;
     }
   }
+  .footer {
+    text-align: left;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.10);
+  }
